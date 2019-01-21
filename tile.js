@@ -17,7 +17,7 @@ class Tile {
 
     getCenter(){
         let cx = this.x + this.wh / 2;
-        let cy = this.y / this.wh / 2;
+        let cy = this.y + this.wh / 2;
         return [cx, cy];
     }
 
